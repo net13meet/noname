@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="../include/jquery-3.2.1.min.js">
+
+</script>
+<script>
+function a(){
+	var name = $("#name").val();
+	if (name==""){
+		alert("Please type your name.");
+		$("#name").focus();
+		return;
+	}
+
+	form.submit();
+}
+</script>
+</head>
+
+<body>
+What is your name?
+<form id="form" name="form" action="go.jsp" method="post">
+<input type="text" name="name" id="name">
+<input type="button" value="Submit" onclick="a()">
+</form>
+</body>
+</html>

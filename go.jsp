@@ -17,6 +17,6 @@ out.println("Hello, "+name+"! Thank you for participating in this survey.");
 
 %>
 <br>
-<input type="submit" value="Go back" onclick="window.location='home.html';">
+<input type="submit" value="Go back" onclick="window.location='index.html';">
 </body>
 </html>
